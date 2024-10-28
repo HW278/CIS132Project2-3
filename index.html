@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Youth Sports Finder</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+</head>
+	
+<body>
+    <header>
+        <img src="logo.jpg" alt="Youth Sports Finder Logo">
+    </header>
+    <nav id="nav_menu">
+    	<ul>
+    		<li><a class="indi" href="individual.html">Individual Sports</a></li>
+    		<li><a href="team.html">Team Sports</a></li>
+            <li><a href="electronic.html">Electronic Sports</a></li>
+    		<li><a href="parent.html">Parent-Tot Sports</a></li>      
+    	</ul>
+    </nav>
+    <main>
+        <section>
+        	<h1>About this website...</h1>
+            <p>This website provides a well-organized and categorized list of resources for those looking for youth sport lessons or activities.
+            </p>
+            <img src="sport.png" alt="sports pic">
+        </section>
+        <aside>
+            <img src="search.png" alt="search pic">
+            <h2>What sports you can find at here...</h2>
+            <h3>Individual Sports</h3>
+            <p class="news_item">
+                Swimming, Gymnastics,Tennis, Martial Art...
+            </p>
+            <h3>Team Sports</h3>
+            <p class="news_item">Soccer, Baseball/Softball, Basketball, Volleyball...</p>
+            <h3>Electronic Sports</h3>
+            <p class="news_item">In person, Online</p>
+            <h3>Parent-Tot Sports</h3>
+            <p class="news_item">Swimming, Dancing...</p>
+        </aside>
+    </main>
+    <footer>
+		<h2>Contact us</h2>
+        <form id="email_form" action="submit.html">
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstnaame" required><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="Lastnaame" required><br>
+            <label for="email"> E-mail:</label>
+            <input type="text" id="email" required><br>
+            <label for="zip">Zip code:</label>
+            <input type="text" is="zip"><br>
+            <label type="comments">Comments or Questions?</label><br>
+            <textarea id="comments" required></textarea><br>
+            <input type="submit" id="submit" value="Submit">
+            <input type="reset" id="reset">
+        </form>
+    </footer>
+</body>
+</html>

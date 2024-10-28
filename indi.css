@@ -1,0 +1,157 @@
+html {
+	background-image: linear-gradient(to bottom, rgba(239, 244, 245, 0.947) 0%, #050980 100%);
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 96%;                        
+	max-width: 1200px;                
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 0;
+	border: 1px solid rgb(21, 6, 90);
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #380e7c !important;
+}
+a:hover, a:focus {
+	color: rgb(126, 25, 203) !important;
+}
+
+header {
+	width: 100%;                       
+	padding-bottom: 2em;
+}
+
+header img {
+	width: 100%;                    
+}
+
+#nav_menu ul {
+	width: 125%;                
+	list-style-type: none;
+	position: relative;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+}
+*#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+#nav_menu ul li.lastitem ul li ul {
+	position: absolute;
+	left: -100%;
+	top: 0;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li {
+	width: 20%;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	background-color: #c8e9f9;
+}
+#nav_menu ul li:hover ul {
+	width: 100%;
+}
+#nav_menu ul li:hover ul li:hover ul li {
+	width: 100%;
+}
+
+h2 {
+    padding-left: 0.5em;
+    color: #050980;
+}
+
+main {
+	width: 100%;                       
+	float: left;            
+	padding: 1.5em 3% 0 0;  
+    background-color: white;           
+}
+
+div.gallery {
+    border: 1px solid #ebeff5;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer {
+	clear: both;
+	width: 100%;                            
+	border-top: 2px solid #0c096b;
+}
+
+footer p {
+    text-align: center;
+}
